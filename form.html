@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <h2>Please fill the form</h2>
+            <form>
+                <label for="name">Your name:
+                  <input type="text" placeholder="Your name">
+                </label>
+
+                <label for="email">Your email:
+                        <input type="text" placeholder="Your email">
+
+                
+                </label>
+                <label for="name">Your phone:
+                    <input type="text" placeholder="Your Number">
+                </label>
+
+                <fieldset>
+                   <legend>Pick one fruit</legend>
+                   <label for="Banana">
+                    <input type="radio" name="fruit" id="Banana">Banana
+                   </label>
+
+                   <label for="Apple">
+                   <input type="radio" name="fruit" id="Apple">Apple
+
+                   </label>
+
+                   <label for="Orange">
+                    <input type="radio" name="fruit" id="Orange">Orange
+                   </label>
+
+                </fieldset>
+                 
+                <fieldset>
+                   <legend>Your favorite Chocolate</legend>
+                   <label for="Kitkat">
+                    <input type="checkbox" name="Chocolate" id="Kitkat">Kitkat
+                   </label>
+                   <label for="Golden-Rocher">
+                    <input type="checkbox" name="Chocolate" id="Golden-Rocher">Golden-Rocher
+                   </label>
+                   <label for="Snickers">
+                    <input type="checkbox" name="Chocolate" id="Snickers">Snickers
+                   </label>
+                   <label for="Mars">
+                    <input type="checkbox" name="Chocolate" id="Mars">Mars
+                   </label>
+
+                </fieldset>
+                
+                <input type="reset" value="reset">
+                <input type="submit" value="submit">
+
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
